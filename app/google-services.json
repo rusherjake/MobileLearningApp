@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "830573447439",
+    "firebase_url": "https://capstone-assignment-management-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "capstone-assignment-management",
+    "storage_bucket": "capstone-assignment-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830573447439:android:b022432d30f2f40ee4167a",
+        "android_client_info": {
+          "package_name": "com.example.studentmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830573447439-6gaonn5dnr6id6mal25kprfro7hqispq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwBvOSd1zeQwMZg4CF5e0Vmcx7VpAdDYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830573447439-6gaonn5dnr6id6mal25kprfro7hqispq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830573447439:android:01bf9f47d5a7af19e4167a",
+        "android_client_info": {
+          "package_name": "com.hccsi.baclaan.capstone_assignmentmanagementapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830573447439-6gaonn5dnr6id6mal25kprfro7hqispq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwBvOSd1zeQwMZg4CF5e0Vmcx7VpAdDYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830573447439-6gaonn5dnr6id6mal25kprfro7hqispq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830573447439:android:a56d30815feefef3e4167a",
+        "android_client_info": {
+          "package_name": "com.hccsi.baclaan.capstoneassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830573447439-6gaonn5dnr6id6mal25kprfro7hqispq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwBvOSd1zeQwMZg4CF5e0Vmcx7VpAdDYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830573447439-6gaonn5dnr6id6mal25kprfro7hqispq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

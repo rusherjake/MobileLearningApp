@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.hccsi.baclaan.capstoneassignment.AdminProfile"
+    android:background="#F1F1F1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toolbar_bg"
+            app:title="Profile"
+            app:titleTextColor="@color/white" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="508dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="168dp">
+
+            <Button
+                android:id="@+id/admin_change_password_button"
+                android:layout_width="244dp"
+                android:layout_height="126dp"
+                android:background="@drawable/button_login"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Change Password"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/admin_logout_button"
+                android:layout_width="244dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_login"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Logout"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/admin_change_password_button" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

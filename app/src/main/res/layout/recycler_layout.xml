@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardCornerRadius="4dp"
+android:layout_marginBottom="10dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:id="@+id/parent_layout"
+    android:padding="15dp">
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/nameadminteach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/idnumberadminteach"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Number"
+        android:layout_below="@id/nameadminteach"
+        android:fontFamily="@font/regular"/>
+
+    <TextView
+        android:id="@+id/passwordadminteach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@id/idnumberadminteach"
+        android:fontFamily="@font/regular"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/statusadminteach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:fontFamily="@font/regular"
+        android:layout_below="@id/passwordadminteach"
+        android:paddingLeft="10dp"/>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

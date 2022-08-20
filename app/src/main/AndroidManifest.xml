@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hccsi.baclaan.capstoneassignment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hccs_classroom_logo"
+        android:label="HCCS Class"
+        android:roundIcon="@mipmap/hccs_classroom_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CapstoneAssignment">
+        <activity android:name=".AddClasswork"></activity>
+        <activity android:name=".StudentClassworkView" />
+        <activity android:name=".StudentClassOpen" />
+        <activity android:name=".TeacherClassOpen" />
+        <activity android:name=".ChangePass" />
+        <activity android:name=".AddClassroomStudent" />
+        <activity android:name=".ViewClassroomStudent" />
+        <activity android:name=".AddClassroom" />
+        <activity android:name=".AddStudent" />
+        <activity android:name=".DeleteTeacher" />
+        <activity android:name=".AddTeacher" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".TeacherActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".LoginForm" />
+        <activity android:name=".LoadingScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
